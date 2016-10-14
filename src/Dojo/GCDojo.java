@@ -16,7 +16,7 @@ public class GCDojo {
 		System.out.println("Soft Skills: ");
 		System.out.print("Interviewing" + "\n" + "Networking" + "\n");
 		
-		System.out.print("Enter a class name of you would like to know more about that class. " + "\n" + "Enter 'faculty' a list of teachers and what they teach");
+		System.out.print("Enter a class name of you would like to know more about that class. " + "\n" + "Enter 'faculty' for a list of teachers and what they teach");
 		option = input.nextLine();
 		System.out.println();
 
@@ -25,6 +25,7 @@ public class GCDojo {
 		if (option.equalsIgnoreCase("faculty")) {
 			Teachers.faculty();
 		}
+	System.out.println("Enter a class name to learn more");
 	}
 
 }
